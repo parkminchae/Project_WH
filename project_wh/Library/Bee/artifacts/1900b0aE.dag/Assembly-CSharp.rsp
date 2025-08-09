@@ -441,6 +441,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/scripts/camera.cs"
+"Assets/scripts/npc/nameTag.cs"
+"Assets/scripts/npc/npc.cs"
 "Assets/scripts/player_controller.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
