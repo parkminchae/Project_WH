@@ -17,6 +17,17 @@ public class nameTag : MonoBehaviour
     {
         npc npc = GetComponent<npc>();
         tmp.text = npc.name;
+
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        
+        if (playerObj != null)
+        {
+            player = playerObj.transform;
+        }
+        else
+        {
+            Debug.LogWarning("Player 태그를 가진 오브젝트를 찾을 수 없습니다.");
+        }
     }
 
     void Update()

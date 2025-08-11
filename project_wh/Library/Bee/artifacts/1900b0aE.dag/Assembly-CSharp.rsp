@@ -127,6 +127,8 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
+-define:INK_RUNTIME
+-define:INK_EDITOR
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll"
@@ -371,6 +373,8 @@
 -r:"Library/PackageCache/com.unity.ext.nunit@60ef35ffd3cd/net40/unity-custom/nunit.framework.dll"
 -r:"Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1b53f46e931b/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Ink-Libraries.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/InkEditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PPv2URPConverters.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PsdPlugin.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Animation.Editor.ref.dll"
@@ -440,10 +444,12 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/Ink/Demos/Basic Demo/Scripts/BasicInkExample.cs"
+"Assets/Ink/Demos/Basic Demo/Scripts/QuitGameOnKeypress.cs"
 "Assets/scripts/camera.cs"
 "Assets/scripts/npc/nameTag.cs"
 "Assets/scripts/npc/npc.cs"
-"Assets/scripts/player_controller.cs"
+"Assets/scripts/player/player_controller.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
